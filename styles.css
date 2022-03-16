@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 !important;
+  
 }
 nav {
   display: flex;
@@ -20,9 +21,17 @@ nav {
   text-align: center;
 }
 .welcome {
-  position: static;
-  width: 90px;
-  height: 28px;
+    width: 90px;
+    height: 28px;
+    left: 12px;
+    top: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+align-items: center;
+text-align: center;
 }
 .tool-button {
   width: 40px;
@@ -32,11 +41,11 @@ nav {
   background-image: url(images/background.png);
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  max-height: calc(10vh-20px) ;
   display: flex;
   flex-direction: column;
   padding: 39px;
-  
+
 }
 .primary-text {
     font-family: 'Inter';
@@ -59,7 +68,6 @@ nav {
     top: 100px;
 }
 .supporting-text{
-position: static;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -74,4 +82,11 @@ color: #172B4D;
 }
 .social-icon{
     margin: 10px;
+}
+.action-button{
+  display: flex;
+    width: 327px;
+    height: 48px;
+    margin-top: 100px;
+    justify-content: center;
 }
