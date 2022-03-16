@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    justify-content: space-between;
+}
+.welcome{
+
+}
+.tool-button{
+   
+}
