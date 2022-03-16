@@ -5,14 +5,23 @@ body {
   font-weight: 400;
 }
 nav {
-    display: flex;
-    flex-direction: row;
-    border: 2px solid;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
 }
-.welcome{
-
+.welcome {
+  position: static;
+  width: 90px;
+  height: 28px;
 }
-.tool-button{
-   
+.tool-button {
+  width: 40px;
+  height: 40px;
 }
