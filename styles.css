@@ -35,7 +35,8 @@ nav {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 39px;
+  
 }
 .primary-text {
     font-family: 'Inter';
@@ -45,7 +46,7 @@ nav {
     line-height: 52px;
     text-align: center;
     color: #172B4D;
-    top: 100px;
+    
 }
 .green-primary-text {
     font-family: 'Inter';
@@ -56,4 +57,21 @@ nav {
     text-align: center;
     color: rgb(54 ,179, 126);
     top: 100px;
+}
+.supporting-text{
+position: static;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #172B4D;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    margin: 10px;
 }
