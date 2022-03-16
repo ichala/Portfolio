@@ -43,7 +43,7 @@ nav {
   background-image: url(images/background.png);
   background-size: contain;
   background-repeat: no-repeat;
-  max-height: calc(10vh);
+  max-height: calc(100vh - 20px);
   display: flex;
   flex-direction: column;
   padding: 39px;
