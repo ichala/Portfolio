@@ -21,17 +21,17 @@ nav {
   text-align: center;
 }
 .welcome {
-    width: 90px;
-    height: 28px;
-    left: 12px;
-    top: 10px;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 28px;
-align-items: center;
-text-align: center;
+  width: 90px;
+  height: 28px;
+  left: 12px;
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
 }
 .tool-button {
   width: 40px;
@@ -41,52 +41,50 @@ text-align: center;
   background-image: url(images/background.png);
   background-size: contain;
   background-repeat: no-repeat;
-  max-height: calc(10vh-20px) ;
+  max-height: calc(10vh-20px);
   display: flex;
   flex-direction: column;
   padding: 39px;
-
 }
 .primary-text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    color: #172B4D;
-    
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
 }
 .green-primary-text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    color: rgb(54 ,179, 126);
-    top: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: rgb(54, 179, 126);
+  top: 100px;
 }
-.supporting-text{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #172B4D;
+.supporting-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
 }
-.social-media{
-    display: flex;
-    justify-content: center;
-}
-.social-icon{
-    margin: 10px;
-}
-.action-button{
+.social-media {
   display: flex;
-    width: 327px;
-    height: 48px;
-    margin-top: 100px;
-    justify-content: center;
+  justify-content: center;
+}
+.social-icon {
+  margin: 10px;
+}
+.action-button {
+  display: flex;
+  width: 327px;
+  height: 48px;
+  margin-top: 100px;
+  justify-content: center;
 }
