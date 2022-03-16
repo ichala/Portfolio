@@ -104,7 +104,7 @@ nav {
 }
 
 .button:hover {
-  box-shadow: 0px 8px 16px rgba(30, 72, 143, 0.24);
+  box-shadow: 8px 16px rgba(30, 72, 143, 0.24);
   border-radius: 4px;
 }
 
