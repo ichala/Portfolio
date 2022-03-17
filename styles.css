@@ -15,16 +15,16 @@ body {
   }
 
   .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  align-items: center;
-  text-align: center;
-  padding: 1px 20px 1px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    padding: 1px 20px 1px 20px;
   }
 
   .welcome {
@@ -100,6 +100,7 @@ body {
     justify-content: center;
   }
 }
+
 .button {
   width: 91px;
   height: 48px;
