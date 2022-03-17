@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  margin: 0 !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+  ul {
+    list-style-type: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    padding: 1px 20px 1px 20px;
+  }
+
+  .welcome {
+    width: 90px;
+    height: 28px;
+    left: 12px;
+    top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tool-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .headline {
+    background-image: url(images/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    padding: 39px;
+  }
+
+  .primary-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .green-primary-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: rgb(54, 179, 126);
+    top: 100px;
+  }
+
+  .supporting-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icon {
+    margin: 10px;
+  }
+
+  .action-button {
+    display: flex;
+    width: 327px;
+    height: 48px;
+    margin-top: 100px;
+    justify-content: center;
+  }
+}
+
+.button {
+  width: 91px;
+  height: 48px;
+  left: 100px;
+  top: calc(50% - 48px / 2 + 41.5px);
+  background: #1e488f;
+  border-radius: 4px;
+}
+
+.button:hover {
+  box-shadow: 8px 16px rgba(30, 72, 143, 0.24);
+  border-radius: 4px;
+}
+
+.button:active {
+  background: #0a2759;
+  border-radius: 4px;
+}
