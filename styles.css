@@ -107,8 +107,6 @@ body {
   }
   
   .recent-work{
-    
-    border: #0a2759 1px solid;
     height: 100%;
   }
   .work-list{
@@ -174,6 +172,10 @@ max-width: 80%;
 text-align: center;
 margin-top: 16px;
 color: #3A4A42;
+margin-bottom: 10px;
+  }
+  .card-head{
+    margin-bottom: 50px;
   }
   .tags-list{
     margin: 16px 0px;
@@ -192,17 +194,83 @@ line-height: 16px;
 letter-spacing: 0.03em;
 color: #3A4A42;
   }
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .about-me-text{
+    background-image: url("images/about.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+  .tools-list{
+    display: grid;
+    grid-template-columns: 100% ;
+   
+  }
+  .tool-card{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #EBF0EE;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 327px;
+    height: 332px;
+    border: 1px solid #C1C7D0;
+box-sizing: border-box;
+border-radius: 8px;
+  }
+  .card-icon{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+  }
+  .icon{
+    width: 48px;
+    height: 48px;
   
+  }
+  .tool-tags{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    margin: 5px;
+    flex-wrap:wrap;
+    max-width:327px ;
+  }
+  .tool-tag{
+    padding: 8px 12px;
+    margin: 0px 4px 10px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+   align-self: center;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #36B37E;
+  }
 }
 
 button {
-  width: 122px;
-height: 48px;
+  width: 142px;
+   height: 48px;
   left: 100px;
   top: calc(50% - 48px / 2 + 41.5px);
   background: #36B37F;
   border-radius: 4px;
-  color: white;
   border: none;
   padding: 0!important;
   font-weight: 500;
@@ -213,6 +281,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 margin: 20px;
+
 }
 
 button:hover {
