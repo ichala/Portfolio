@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-device-width: 480px) {
   ul {
-  list-style-type: none;
+    list-style-type: none;
   }
 
   .header {
