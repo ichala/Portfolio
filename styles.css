@@ -12,6 +12,11 @@ body {
 @media only screen and (max-device-width: 480px) {
   ul {
     list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
   }
 
   .header {
@@ -101,11 +106,89 @@ body {
   }
   
   .recent-work{
+    
+    border: #0a2759 1px solid;
+    height: 100vh;
+  }
+  .work-list{
     display: grid;
     grid-template-columns: 100% ;
     grid-template-rows: 100% ;
-    border: #0a2759 1px solid;
-    height: 100vh;
+  }
+  .section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+  .indicator{
+    position: static;
+width: 48px;
+height: 4px;
+left: 139.5px;
+top: 121px;
+  }
+  .single-work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #EBF0EE;
+    border: 1px solid #D0D9D4;
+    border-radius: 8px;
+  }
+  .image-placeholder{
+    height: 200px;
+    width: 300px;
+    padding: 1px;
+    background: #EBF0EE;
+  }
+  .work-picture{
+    height: 200px;
+    width: 300px;
+    
+  }
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border-radius: 5px;
+   margin: 1px;
+    background: #ffffff !important;
+  }
+  .card-title{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+max-width: 80%;
+text-align: center;
+margin-top: 16px;
+color: #3A4A42;
+  }
+  .tags-list{
+    display: flex;
+    flex-direction: row;
+  }
+  .tag{
+    padding: 8px 12px;
+    background: #EBF0EE;
+border-radius: 4px;
+margin: 5px;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #3A4A42;
   }
 }
 
