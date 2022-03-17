@@ -9,6 +9,8 @@ body {
   margin: 0 !important;
 }
 
+@media only screen and (max-device-width: 480px) {
+
 .header {
   display: flex;
   flex-direction: row;
@@ -19,6 +21,7 @@ body {
   line-height: 28px;
   align-items: center;
   text-align: center;
+  padding: 1px 20px 1px 20px;
 }
 
 .welcome {
@@ -93,7 +96,7 @@ body {
   margin-top: 100px;
   justify-content: center;
 }
-
+}
 .button {
   width: 91px;
   height: 48px;
