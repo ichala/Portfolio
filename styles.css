@@ -103,12 +103,13 @@ body {
     height: 48px;
     margin-top: 100px;
     justify-content: center;
+    align-self: center;
   }
   
   .recent-work{
     
     border: #0a2759 1px solid;
-    height: 100vh;
+    height: 100%;
   }
   .work-list{
     display: grid;
@@ -145,13 +146,13 @@ top: 121px;
     border-radius: 8px;
   }
   .image-placeholder{
-    height: 200px;
+    height: 250px;
     width: 300px;
     padding: 1px;
     background: #EBF0EE;
   }
   .work-picture{
-    height: 200px;
+    height: 250px;
     width: 300px;
     
   }
@@ -175,6 +176,7 @@ margin-top: 16px;
 color: #3A4A42;
   }
   .tags-list{
+    margin: 16px 0px;
     display: flex;
     flex-direction: row;
   }
@@ -190,23 +192,35 @@ line-height: 16px;
 letter-spacing: 0.03em;
 color: #3A4A42;
   }
+  
 }
 
-.button {
-  width: 91px;
-  height: 48px;
+button {
+  width: 122px;
+height: 48px;
   left: 100px;
   top: calc(50% - 48px / 2 + 41.5px);
-  background: #1e488f;
+  background: #36B37F;
   border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 0!important;
+  font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+margin: 20px;
 }
 
-.button:hover {
+button:hover {
   box-shadow: 8px 16px rgba(30, 72, 143, 0.24);
   border-radius: 4px;
 }
 
-.button:active {
+button:active {
   background: #0a2759;
   border-radius: 4px;
 }
