@@ -12,14 +12,11 @@ body {
 @media only screen and (max-device-width: 480px) {
   ul {
     list-style-type: none;
-
-    /* margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-    user-agent-fix
-    */
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
   }
 
   .header {
@@ -290,6 +287,13 @@ body {
     letter-spacing: 0.03em;
     color: #36b37e;
   }
+
+  .bg-about {
+    background-image: url("images/bg-abt.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: top right -40px;
+  }
 }
 
 button {
@@ -312,11 +316,12 @@ button {
 }
 
 button:hover {
-  box-shadow: 8px 16px rgba(30, 72, 143, 0.24);
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
 button:active {
-  background: #0a2759;
+  background: #008552;
   border-radius: 4px;
 }
