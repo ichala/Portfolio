@@ -358,7 +358,7 @@ body {
     font-family: "Inter", sans-serif;
     font-style: normal;
     background: #fff;
-    border: 1px solid #d0d9d4;
+    border: 1px solid #60c095;
     box-sizing: border-box;
     border-radius: 4px;
   }
@@ -368,5 +368,53 @@ body {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+  }
+
+  input:valid {
+    border: 2px solid rgb(27, 250, 65);
+  }
+
+  input:invalid {
+    background: #fff;
+    border: 1px solid #d0d9d4;
+  }
+
+  input:focus-visible {
+    outline: none;
+  }
+
+  textarea:valid {
+    border: 2px solid rgb(27, 250, 65);
+  }
+
+  textarea:focus-visible {
+    outline: none;
+  }
+
+  .bg-contact {
+    background-image: url("images/bg-contact.png");
+    background-position: bottom right 1px;
+    background-repeat: no-repeat;
+  }
+
+  .EmailMe {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    text-decoration: none;
+  }
+
+  .FinishLine {
+    margin-top: 300px;
+    align-self: center;
+    height: 5px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: black;
+    border: black 1px solid;
+    margin-bottom: 20px;
   }
 }
