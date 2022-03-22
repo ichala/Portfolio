@@ -212,6 +212,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .about-me-text {
@@ -323,5 +324,49 @@ body {
   button:active {
     background: #008552;
     border-radius: 4px;
+  }
+
+  .Contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    width: 80%;
+    padding: 16px;
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 80%;
+    padding: 16px;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    background: #fff;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .contact-me-header {
+    margin: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
   }
 }
