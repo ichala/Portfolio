@@ -36,6 +36,10 @@ ul {
     padding: 1px 20px 1px 20px;
   }
 
+  .hide-mobile {
+    display: none;
+  }
+
   .welcome {
     width: 90px;
     height: 28px;
