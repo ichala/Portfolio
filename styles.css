@@ -481,7 +481,6 @@ ul {
 
   .nav-link-desktop > a {
     padding: 10px 12px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -491,7 +490,6 @@ ul {
   }
 
   .primary-text {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -502,7 +500,6 @@ ul {
   }
 
   .green-primary-text {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -512,7 +509,6 @@ ul {
   }
 
   .supporting-text {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17.9px;
@@ -635,7 +631,7 @@ ul {
   }
 
   .tag {
-    padding: 8px ;
+    padding: 8px;
     background: #ebf0ee;
     border-radius: 4px;
     margin: 5px;
@@ -861,11 +857,13 @@ ul {
   .hide-desktop {
     display: none;
   }
-  .footer{
+
+  .footer {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   button {
     width: 132px;
     height: 40px;
@@ -893,5 +891,4 @@ ul {
     background: #008552;
     border-radius: 4px;
   }
-
 }
