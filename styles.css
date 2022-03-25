@@ -22,6 +22,36 @@ ul {
   padding-inline-start: 0;
 }
 
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.header-desktop {
+  animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+.social-icon:hover {
+  animation: mymove 5s infinite;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.primary-text:hover {
+  transform: scale(1.2);
+}
+
+@keyframes mymove {
+  50% { transform: rotate(180deg); }
+}
+
 @media only screen and (min-width: 1000px) {
   body {
     background-color: white;
