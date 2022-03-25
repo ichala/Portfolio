@@ -22,6 +22,18 @@ ul {
   padding-inline-start: 0;
 }
 
+.social-icon:hover {
+  animation: mymove 5s infinite;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes mymove {
+  50% { transform: rotate(180deg); }
+}
+
 @media only screen and (min-width: 1000px) {
   body {
     background-color: white;
