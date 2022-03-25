@@ -30,6 +30,10 @@ button:hover {
   transform: scale(1.1);
 }
 
+.primary-text:hover {
+  transform: scale(1.2);
+}
+
 @keyframes mymove {
   50% { transform: rotate(180deg); }
 }
