@@ -6,6 +6,7 @@
 
 
 ## Live Demo
+you can check the online version here :
  https://ichala.github.io/Portfolio/
 
 ## Built With
