@@ -533,6 +533,10 @@ button:hover {
     padding: 1px 20px 1px 20px;
   }
 
+  .hide {
+    display: none;
+  }
+
   .mobile-menu_container {
     background-color: #eaeaf2;
     position: fixed;
@@ -572,10 +576,9 @@ button:hover {
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #3A4A42;
+    color: #3a4a42;
     text-decoration: none;
     margin: 20px 0 0 20px;
-    
   }
 
   .hide-mobile {
