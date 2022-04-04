@@ -552,6 +552,32 @@ button:hover {
     border-radius: 0 0 30px 30px;
   }
 
+  .close_menu_icon {
+    float: right;
+    margin: 10px;
+  }
+
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-top: 50px;
+  }
+
+  .nav-link-mobile > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #3A4A42;
+    text-decoration: none;
+    margin: 20px 0 0 20px;
+    
+  }
+
   .hide-mobile {
     display: none;
   }
