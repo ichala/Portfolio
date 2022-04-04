@@ -13,6 +13,22 @@
       <nav>
         <img class="tool-button" src="images/Enabled.png" alt="toolimage" />
       </nav>
+      <div class="mobile-menu_container hide" id="mobile-menu_container">
+        <div class="mobile_menu">
+          <img src="./images/close.png" class="close_menu_icon" alt="close icon">
+          <ul class="mobile-nav-links">
+            <li class="nav-link-mobile">
+              <a href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-link-mobile">
+              <a href="#About">About</a>
+            </li>
+            <li class="nav-link-mobile">
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <section class="headline">
       <nav class="desktop-nav hide-mobile">
@@ -183,7 +199,7 @@
         </li>
       </ul>
     </section>
-    <section class="about-me bg-about">
+    <section class="about-me bg-about" id="About">
       <div class="about-me-text">
         <h2 class="primary-text">About me</h2>
         <p class="supporting-text-about">
@@ -253,7 +269,7 @@
     <div class="bg-contact-desk">
       <img src="images/aboutme-desktop3.svg" class="bg-contact-desk-2 hide-mobile" alt="bg-contact-desk-2"/>
 
-      <section class="Contact-me bg-contact">
+      <section class="Contact-me bg-contact" id="Contact">
         <h2 class="primary-text contact-me-header">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
@@ -354,5 +370,6 @@
         </li>
       </ul>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
