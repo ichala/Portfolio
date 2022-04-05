@@ -84,3 +84,19 @@ const projects = [
 ]
 let WorkList = document.getElementById('work-list');
 
+projects.forEach(project => {
+  let li = document.getElementById("work-list");
+  let div = document.createElement("div");
+  div.classList.add("card");
+  let placeholder = document.createElement("div");
+  placeholder.classList.add("image-placeholder");
+  div.appendChild(placeholder);
+  let cardbody = document.createElement("div");
+  cardbody.classList.add('card-body');
+  let cardtitle = document.createElement("h2");
+  cardtitle.classList.add('card-title');
+  cardtitle.innerText= project.Name;
+  cardbody.appendChild(cardtitle);
+  div.appendChild(cardbody);
+  li.appendChild(div);
+});
