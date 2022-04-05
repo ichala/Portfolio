@@ -112,6 +112,16 @@ button:hover {
     align-items: center;
   }
 
+  .nav-link-desktop > a {
+    padding: 10px 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #344563;
+  }
+
   .popup-header > .desk-btn > a {
     text-decoration: none !important;
   }
@@ -175,6 +185,34 @@ button:hover {
 
   .desk-btn {
     display: flex;
+  }
+
+  button {
+    width: 132px;
+    height: 40px;
+    background: #36b37f;
+    border-radius: 4px;
+    border: none;
+    padding: 0 !important;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
+  }
+
+  button:active {
+    background: #008552;
+    border-radius: 4px;
   }
 
   .desk-btn > a > button {
@@ -249,16 +287,6 @@ button:hover {
     text-align: center;
     list-style: none;
     margin-top: 30px;
-  }
-
-  .nav-link-desktop > a {
-    padding: 10px 12px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    color: #344563;
   }
 
   .primary-text {
@@ -636,34 +664,6 @@ button:hover {
     align-items: center;
     justify-content: center;
   }
-
-  button {
-    width: 132px;
-    height: 40px;
-    background: #36b37f;
-    border-radius: 4px;
-    border: none;
-    padding: 0 !important;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-
-  button:hover {
-    background: #36b37f;
-    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-    border-radius: 4px;
-  }
-
-  button:active {
-    background: #008552;
-    border-radius: 4px;
-  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -771,6 +771,36 @@ button:hover {
     display: flex;
     justify-content: space-between;
     width: 100%;
+  }
+
+  button {
+    width: 142px;
+    height: 48px;
+    left: 100px;
+    top: calc(50% - 48px / 2 + 41.5px);
+    background: #36b37f;
+    border-radius: 4px;
+    border: none;
+    padding: 0 !important;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    margin: 20px;
+  }
+
+  button:hover {
+    background: #36b37f;
+    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+    border-radius: 4px;
+  }
+
+  button:active {
+    background: #008552;
+    border-radius: 4px;
   }
 
   .popup-footer > a > button {
@@ -1105,36 +1135,6 @@ button:hover {
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: top right -40px;
-  }
-
-  button {
-    width: 142px;
-    height: 48px;
-    left: 100px;
-    top: calc(50% - 48px / 2 + 41.5px);
-    background: #36b37f;
-    border-radius: 4px;
-    border: none;
-    padding: 0 !important;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #fff;
-    margin: 20px;
-  }
-
-  button:hover {
-    background: #36b37f;
-    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-    border-radius: 4px;
-  }
-
-  button:active {
-    background: #008552;
-    border-radius: 4px;
   }
 
   .Contact-me {
