@@ -4,6 +4,24 @@
   scroll-behavior: smooth;
 }
 
+h2 {
+  display: block;
+  font-size: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -545,6 +563,7 @@ button:hover {
     top: 0;
     left: 0;
     z-index: 1;
+    display: flex;
   }
 
   .details-popup-container {
@@ -553,10 +572,10 @@ button:hover {
     backdrop-filter: blur(4px);
     position: fixed;
     height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
-    padding: 36px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -565,14 +584,96 @@ button:hover {
 
   .details-popup {
     background-color: white;
-    height: 100%;
-    /* width: 80%; */
-    padding: 16px 16px 20px;
+    height: 93%;
+    margin: 16px;
+    margin-top: 20px;
+    padding: 16px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .popup_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup_image > img {
+    max-width: 100%;
+    max-height: 100%;
     margin: auto;
+    display: block;
+  }
+
+  .popup-title {
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 12px;
+  }
+
+  .popup-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .tags-list-popup {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .popup-details {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .popup-footer {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .popup-footer > button {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .close-popup {
+    right: 10%;
+    top: 5%;
+    position: absolute;
+  }
+
+  .btn-icon {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .tag-popup {
+    padding: 8px 12px;
+    background: #ebf0ee;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
   }
 
   .mobile_menu {
