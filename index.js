@@ -96,7 +96,23 @@ projects.forEach(project => {
   let cardtitle = document.createElement("h2");
   cardtitle.classList.add('card-title');
   cardtitle.innerText= project.Name;
+  let tagssection = document.createElement("div");
+  tagssection.classList.add('tags-section');
+  let tagslist = document.createElement("ul");
+  tagslist.classList.add('tags-list');
+  project.Techs.forEach((tech) =>{
+    let li_tech = document.createElement("li");
+    li_tech.classList.add('tag');
+    li_tech.innerText=tech;
+    tagslist.appendChild(li_tech);
+  })
+  let card_footer = document.createElement("div");
+  card_footer.classList.add('card-footer');
+  card_footer.innerHTML='<button class="see-project-btn" onclick=openModal('+project._id+')>See Project</button>';
+  tagssection.appendChild(tagslist);
   cardbody.appendChild(cardtitle);
+  cardbody.appendChild(tagssection); 
+  cardbody.appendChild(card_footer);
   div.appendChild(cardbody);
   li.appendChild(div);
 });
