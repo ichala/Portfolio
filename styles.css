@@ -534,7 +534,7 @@ button:hover {
   }
 
   .hide {
-    display: none;
+    display: none !important;
   }
 
   .mobile-menu_container {
@@ -545,6 +545,34 @@ button:hover {
     top: 0;
     left: 0;
     z-index: 1;
+  }
+
+  .details-popup-container {
+    background-color: transparent;
+    background-color: hsla(216, 14%, 79%, 0.693);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .details-popup {
+    background-color: white;
+    height: 100%;
+    /* width: 80%; */
+    padding: 16px 16px 20px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .mobile_menu {
