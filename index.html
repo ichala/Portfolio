@@ -31,25 +31,26 @@
       </div>
       
     </header>
-    <div class="details-popup-container hide-desktop hide" id="details-popup-container">
+    <div class="details-popup-container hide" id="details-popup-container">
       <div class="details-popup">
         <div class="popup_image">
-          <img class="close-popup" src="images/close-popup.png" alt="close popup btn">
-          <img src="./images/image-details-1.png" alt="image-details">
+          <img class="close-popup" src="images/close-popup.png" alt="close popup btn"><br>
+          <img id="ph-desk" class="project-popup-img hide-mobile" src="./images/image-details-1.png" alt="image-details">
+          <img id="ph-mob" class="project-popup-img hide-desktop" src="./images/image-details-1.png" alt="image-details">
         </div>
         <div class="popup-body">
-        <h2 class="popup-title">Keeping track of hundreds of
-          components</h2>
-          <ul class="tags-list-popup">
-            <li class="tag-popup">Ruby on rails</li>
-            <li class="tag-popup">css</li>
-            <li class="tag-popup">Javascript</li>
-            <li class="tag-popup">html</li>
-          </ul>
-          <p class="popup-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-          <div class="popup-footer">
-            <button class="SeeLive-btn">See Live <img class="btn-icon" src="images/live.png" alt="see live icon"></button>
-            <button class="SeeSrc-btn">See Source <img class="btn-icon" src="images/GitHub.png" alt="see source icon"></button>
+          <div class="popup-header">
+            <h2 class="popup-title"></h2>
+            <div class="desk-btn hide-mobile">
+            <a class="SeeLive-btn-pc hide-mobile" href="#" > <button class="SeeLive-btn-pc">See Live <img class="btn-icon" src="images/live.png" alt="see live icon"></button></a>
+            <a class="SeeSrc-btn-pc hide-mobile" href="#" > <button class="SeeSrc-btn-pc">See Source <img class="btn-icon" src="images/GitHub.png" alt="see source icon"></button></a>
+            </div>
+          </div>
+         <ul class="tags-list-popup"></ul>
+          <p class="popup-details"></p>
+          <div class="popup-footer hide-desktop">
+           <a class="SeeLive-btn hide-desktop" href="#" > <button class="SeeLive-btn">See Live <img class="btn-icon" src="images/live.png" alt="see live icon"></button></a>
+           <a class="SeeSrc-btn hide-desktop" href="#" > <button class="SeeSrc-btn">See Source <img class="btn-icon" src="images/GitHub.png" alt="see source icon"></button></a>
           </div>
           
         </div>
