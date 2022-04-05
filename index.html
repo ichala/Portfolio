@@ -29,7 +29,33 @@
           </ul>
         </div>
       </div>
+      
     </header>
+    <div class="details-popup-container hide" id="details-popup-container">
+      <div class="details-popup">
+        <div class="popup_image">
+          <img class="close-popup" src="images/close-popup.png" alt="close popup btn"><br>
+          <img id="ph-desk" class="project-popup-img hide-mobile" src="./images/image-details-1.png" alt="image-details">
+          <img id="ph-mob" class="project-popup-img hide-desktop" src="./images/image-details-1.png" alt="image-details">
+        </div>
+        <div class="popup-body">
+          <div class="popup-header">
+            <h2 class="popup-title"></h2>
+            <div class="desk-btn hide-mobile">
+            <a class="SeeLive-btn-pc hide-mobile" href="#" > See Live <img class="btn-icon" src="images/live.png" alt="see live icon"></a>
+            <a class="SeeSrc-btn-pc hide-mobile" href="#" > See Source <img class="btn-icon" src="images/GitHub.png" alt="see source icon"></a>
+            </div>
+          </div>
+         <ul class="tags-list-popup"></ul>
+          <p class="popup-details"></p>
+          <div class="popup-footer hide-desktop">
+           <a class="SeeLive-btn hide-desktop" href="#" > See Live <img class="btn-icon" src="images/live.png" alt="see live icon"></a>
+           <a class="SeeSrc-btn hide-desktop" href="#" > See Source <img class="btn-icon" src="images/GitHub.png" alt="see source icon"></a>
+          </div>
+          
+        </div>
+        </div>
+    </div>
     <section class="headline">
       <nav class="desktop-nav hide-mobile">
         <ul class="desktop-nav-links">
@@ -92,113 +118,13 @@
         <h2 class="primary-text">My Recent Works</h2>
         <img class="indicator" src="images/Indicator.png" alt="Indicator" />
       </div>
-      <ul class="work-list">
-        <li class="single-work">
-          <div class="card">
-            <div class="image-placeholder"></div>
-            <div class="card-body">
-              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-              <div class="tags-section">
-                <ul class="tags-list">
-                  <li class="tag">Ruby on rails</li>
-                  <li class="tag">css</li>
-                  <li class="tag">Javascript</li>
-                  <li class="tag">html</li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <button class="">See Project</button>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image-placeholder"></div>
-            <div class="card-body">
-              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-              <div class="tags-section">
-                <ul class="tags-list">
-                  <li class="tag">Ruby on rails</li>
-                  <li class="tag">css</li>
-                  <li class="tag">Javascript</li>
-                  <li class="tag">html</li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <button class="">See Project</button>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image-placeholder"></div>
-            <div class="card-body">
-              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-              <div class="tags-section">
-                <ul class="tags-list">
-                  <li class="tag">Ruby on rails</li>
-                  <li class="tag">css</li>
-                  <li class="tag">Javascript</li>
-                  <li class="tag">html</li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <button class="">See Project</button>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image-placeholder"></div>
-            <div class="card-body">
-              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-              <div class="tags-section">
-                <ul class="tags-list">
-                  <li class="tag">Ruby on rails</li>
-                  <li class="tag">css</li>
-                  <li class="tag">Javascript</li>
-                  <li class="tag">html</li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <button class="">See Project</button>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image-placeholder"></div>
-            <div class="card-body">
-              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-              <div class="tags-section">
-                <ul class="tags-list">
-                  <li class="tag">Ruby on rails</li>
-                  <li class="tag">css</li>
-                  <li class="tag">Javascript</li>
-                  <li class="tag">html</li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <button>See Project</button>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="image-placeholder"></div>
-            <div class="card-body">
-              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
-              <div class="tags-section">
-                <ul class="tags-list">
-                  <li class="tag">Ruby on rails</li>
-                  <li class="tag">css</li>
-                  <li class="tag">Javascript</li>
-                  <li class="tag">html</li>
-                </ul>
-              </div>
-              <div class="card-footer">
-                <button class="">See Project</button>
-              </div>
-            </div>
-          </div>
+      <ul class="work-list" >
+        <li class="single-work" id="work-list">
         </li>
       </ul>
+     
     </section>
+  
     <section class="about-me bg-about" id="About">
       <div class="about-me-text">
         <h2 class="primary-text">About me</h2>
