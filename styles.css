@@ -4,6 +4,17 @@
   scroll-behavior: smooth;
 }
 
+kbd {
+  color: red;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.invalid-email {
+  background: #fff;
+  border: 1px solid #ed1818 !important;
+}
+
 .hide {
   display: none !important;
 }

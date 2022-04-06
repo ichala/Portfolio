@@ -124,13 +124,25 @@ projects.forEach((project) => {
   });
   const CardFooter = document.createElement('div');
   CardFooter.classList.add('card-footer');
-  CardFooter.innerHTML = `<button class="see-project-btn" onclick=openModal(${
-    project.id
-  })>See Project</button>`;
+  CardFooter.innerHTML = `<button class="see-project-btn" onclick=openModal(${project.id})>See Project</button>`;
   tagssection.appendChild(tagslist);
   cardbody.appendChild(cardtitle);
   cardbody.appendChild(tagssection);
   cardbody.appendChild(CardFooter);
   div.appendChild(cardbody);
   li.appendChild(div);
+});
+
+const Form = document.querySelector('.form-flex');
+const Email = document.getElementById('email');
+const Msg = document.querySelector('.ErrorMessage');
+const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
+
+Form.addEventListener('submit', (e) => {
+  if (!reg.test(Email.value)) {
+    Email.classList.add('invalid-email');
+    Msg.innerHTML = `Error: Email must be lowercase, <br> example: ${
+      Email.value.toLowerCase()}`;
+    e.preventDefault();
+  }
 });
