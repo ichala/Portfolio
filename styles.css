@@ -633,8 +633,6 @@ button:hover {
     border: 2px solid rgb(27, 250, 65);
   }
 
- 
-
   input:invalid {
     background: #fff;
     border: 1px solid #d0d9d4;
