@@ -4,6 +4,17 @@
   scroll-behavior: smooth;
 }
 
+kbd {
+  color: red;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.invalid-email {
+  background: #fff;
+  border: 1px solid #ed1818 !important;
+}
+
 .hide {
   display: none !important;
 }
@@ -621,6 +632,8 @@ button:hover {
   input:valid {
     border: 2px solid rgb(27, 250, 65);
   }
+
+ 
 
   input:invalid {
     background: #fff;

@@ -134,3 +134,11 @@ projects.forEach((project) => {
   div.appendChild(cardbody);
   li.appendChild(div);
 });
+ 
+
+let Form = document.querySelector('.form-flex');
+let Email = document.getElementById('email');
+let Msg = document.querySelector('.ErrorMessage');
+const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
+
+
