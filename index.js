@@ -149,6 +149,14 @@ Form.addEventListener('submit', (e) => {
   }
 });
 
+function Save () {
+  const collectedData = {
+    name:Name.value,
+    email:Email.value,
+    comment:Comment.value
+  }
+  localStorage.setItem('SavedData',JSON.stringify(collectedData));
+}
 
 
 if(localStorage.getItem('SavedData') === null ){
