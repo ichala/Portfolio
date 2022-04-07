@@ -135,6 +135,8 @@ projects.forEach((project) => {
 
 const Form = document.querySelector('.form-flex');
 const Email = document.getElementById('email');
+const Name = document.getElementById('name');
+const Comment = document.getElementById('comment');
 const Msg = document.querySelector('.ErrorMessage');
 const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
 
@@ -146,3 +148,26 @@ Form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+
+
+if(localStorage.getItem('SavedData') === null ){
+const SavedData = {name:'',email:'',comment:''};
+localStorage.setItem('SavedData',JSON.stringify(SavedData));
+}
+else{
+ const Data = JSON.parse(localStorage.getItem('SavedData'));
+ Email.value = Data.email;
+ Name.value = Data.name;
+ Comment.value = Data.comment;
+}
+
+Email.addEventListener('change', ()=>{
+  Save();
+})
+Name.addEventListener('change', ()=>{
+  Save();
+})
+Comment.addEventListener('change', ()=>{
+  Save();
+})
